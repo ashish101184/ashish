@@ -1,0 +1,9 @@
+client user table
+>upload photo.
+
+Medical conditions
+>disablity is true then upload document.
+
+PhilosophyCentre:
+> attached docuemnt
+> Upload centre logo

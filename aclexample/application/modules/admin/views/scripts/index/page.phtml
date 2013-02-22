@@ -1,0 +1,14 @@
+<br /><br />
+<?php if(isset($this->message)) :?>
+    <div class="notification">
+    <?php echo implode($this->message,''); ;?>
+    </div>  
+<?php endif;?>
+<div id="view-content">
+	<table>
+	<?php foreach($this->items as $item){?>
+      <tr><td><?php echo $item['username']?></td></tr>  
+     <?php }?>	  
+     <tr><td><?php echo $this->pagerLayout->display();?></td></tr>
+	</table>
+</div>

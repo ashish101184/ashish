@@ -1,0 +1,16 @@
+<br /><br />
+<?php if(isset($this->message)) :?>
+    <div class="notification">
+    <?php echo implode($this->message,''); ;?>
+    </div>  
+<?php endif;?>
+<div id="view-content">
+	<p>View script for controller <b>Index</b> and script/action name <b>index</b><br>
+	<?php echo $this->form->renderFormTag('/admin') ?>
+	<table>
+	<?php echo $this->form;?>	
+	<input type="submit" value="Save" />
+	</table>
+	</form>
+	</p>
+</div>

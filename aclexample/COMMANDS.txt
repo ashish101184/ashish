@@ -1,0 +1,14 @@
+generate models: 
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php generate-models-yaml ../application/doctrine/schema/schema.yml 
+
+generate tables: 
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php create-tables ../application/doctrine/schema/schema.yml 
+
+build-all-reload: to create tables
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php build-all-reload ../application/doctrine/schema/schema.yml
+
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php generate-migrations-diff
+
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php migrate
+
+C:\xampp\htdocs\totalcontrol\scripts>php doctrine-cli.php generate-models-db
