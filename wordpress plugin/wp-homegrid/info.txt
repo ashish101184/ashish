@@ -1,0 +1,65 @@
+When we will go for live:-
+
+1) Our plugins name:- homegrid and homebanner.
+2) Need to add new tables "wp_homegrid" and "wp_homebanner"
+3) Need to add new folder in wp_content/uploads/homegrid/images and wp_content/uploads/homegrid/thumbimages 
+
+wp_content/uploads/homebanner/images and thumbimages
+
+4) Added new function "resizeimg" in functions.php
+
+
+
+CREATE TABLE `wp_homebanner` (
+`id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`banner_title` VARCHAR( 155 ) NULL ,
+`background_image` VARCHAR( 155 ) NULL ,
+`front_image` VARCHAR( 155 ) NULL ,
+`banner_text` VARCHAR( 155 ) NOT NULL
+) ENGINE = MYISAM ;
+
+
+
+
+
+
+
+---------------------------------------
+
+WP plugins:- 
+
+Image, Text slider plugin:-
+http://wordpress.org/extend/plugins/wp-skitter-slideshow/
+
+http://172.16.3.89/wordpress/
+responsive interlocking zones
+
+
+We have used in :-
+http://rsb.scratchmarketing.com/
+
+----------------------------------------------------------------------------
+Juqery Isotope :-
+1) http://isotope.metafizzy.co/demos/layout-modes.html
+2) http://jsfiddle.net/desandro/P6JGY/6/
+
+
+
+
+http://stackoverflow.com/questions/8773508/jquery-isotope-centered-and-fluid-responsive
+
+wordpress links:-
+http://css-tricks.com/
+
+
+Below both sides are using jquery Isotope:-
+http://www.unitedpixelworkers.com/
+http://www.facesofnyfw.com/#home
+--------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------
+
+https://basecamp.com/1962875/projects/2450455-rethink-breast
+
