@@ -61,6 +61,6 @@ if (!empty($_POST['tableId']) && !empty($_POST['rowId'])) {
 	mysql_close($dbhandle);
 }
 else {
-	$outputHtml = "<div class='error_alert'>Data not available!!!</div>";
+	$outputHtml = "<div class='error_alert'>Data not available!!!!!!!</div>";
 }
 ?>
